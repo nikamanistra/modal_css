@@ -1,0 +1,56 @@
+.notificationModal {
+  margin-top: 50px;
+  max-width: 550px !important;
+  height: 170px !important;
+  background-color: var(--eula-body);
+  border: 2px solid var(--primary-color);
+}
+
+.notificationModalContent {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  padding: 20px 40px;
+}
+
+.notificationModalBody {
+  padding: 0 !important;
+}
+
+.notificationLogo {
+  width: 80px;
+  height: auto;
+  color: var(--success-color);
+}
+
+.notificationLogoContainer {
+  margin: auto 0;
+  display: flex;
+}
+
+.notificationTextContainer {
+  width: 100%;
+  margin: auto 0;
+  margin-left: 30px;
+}
+
+.header {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  width: 250px;
+  line-height: 24px;
+}
+
+.text {
+  display: block;
+  font-size: 14px;
+  color: var(--primary-hover);
+}
+
+.separator {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid var(--primary-color);
+}
